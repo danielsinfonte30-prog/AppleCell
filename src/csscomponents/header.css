@@ -1,0 +1,12 @@
+.logo{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+} 
+ 
+ h1 { 
+    color: rgba(0, 4, 220, 0.85); 
+    font-size: 4rem;
+    text-align: center;
+    font-family:Arial, sans-serif;
+} 
