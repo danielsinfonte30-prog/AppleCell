@@ -1,13 +1,13 @@
 
 import { Link } from "react-router-dom"
 import "../csscomponents/header.css"
-
+import logo from "../assets/logo.jpg";
 function Header()  {
     return (
         <header>
-            <div classname= "logo">
-                <img src={logo} alt= "Logo de AppleCell"/>
-                <h1>AppleCell</h1>
+            <div className= "logo">
+                <img src={logo} alt="Logo de AppleCell" />
+                <h1 className="brand-title">AppleCell</h1>
             </div>
 
             <nav>

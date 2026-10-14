@@ -1,16 +1,23 @@
  // se importan los componenetes header y footer  y el enrutador de react-router-dom
    import Header from "../components/header.jsx";
    import Footer from "../components/footer.jsx";
+
+   import "../csscomponents/App.css"
+
+
+  import AppRoutes from "./approuter.jsx"
   import { BrowserRouter } from "react-router-dom";
 
   function App() {
     return (
       <BrowserRouter>
-    <div>
-      <Header />
-      <main className="App" />
-      <Footer />
-    </div>
+      <div className="App">
+       <Header />
+      <main className="contenido">
+          <AppRoutes/>
+          </main>
+          <Footer/>
+     </div>
     </BrowserRouter>
     )
   }

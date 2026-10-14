@@ -1,7 +1,7 @@
  import {Route, Routes} from "react-router-dom";
 
 
- import Header from"./contactos.jsx"
+ import Contacto from"./contactos.jsx"
  import Home from "./home.jsx"
  import Productos from "./productos.jsx"
 
